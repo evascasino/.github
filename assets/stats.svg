@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="128" viewBox="0 0 880 128" role="img" aria-label="15,000+ games, 125+ studios, 8 platforms">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE08A"/>
+      <stop offset="100%" stop-color="#E0B01E"/>
+    </linearGradient>
+    <style>
+      .num { font-family: Georgia, 'Times New Roman', serif; font-size: 38px; font-weight: 700; fill: url(#gold); }
+      .lbl { font-family: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 11px; letter-spacing: 2.6px; fill: #8C8C8C; }
+    </style>
+  </defs>
+
+  <g>
+    <rect x="0" y="0" width="280" height="128" rx="10" fill="#0A0A0A"/>
+    <rect x="0.5" y="0.5" width="279" height="127" rx="9.5" fill="none" stroke="#F5C518" stroke-opacity="0.2"/>
+    <rect x="16" y="0" width="60" height="2" fill="url(#gold)">
+      <animate attributeName="width" values="0;60" dur="0.9s" fill="freeze"/>
+    </rect>
+    <g text-anchor="middle">
+      <text class="num" x="140" y="70">1,200<animate attributeName="opacity" values="1;0" keyTimes="0;0.05" dur="7s" calcMode="discrete" repeatCount="indefinite"/></text>
+      <text class="num" x="140" y="70">5,400<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.05;0.1" dur="7s" calcMode="discrete" repeatCount="indefinite"/></text>
+      <text class="num" x="140" y="70">9,800<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1;0.15" dur="7s" calcMode="discrete" repeatCount="indefinite"/></text>
+      <text class="num" x="140" y="70">13,600<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.15;0.2" dur="7s" calcMode="discrete" repeatCount="indefinite"/></text>
+      <text class="num" x="140" y="70">15,000+<animate attributeName="opacity" values="0;1" keyTimes="0;0.2" dur="7s" calcMode="discrete" repeatCount="indefinite"/></text>
+      <text class="lbl" x="140" y="98">TITLES IN CATALOGUE</text>
+    </g>
+  </g>
+
+  <g transform="translate(300,0)">
+    <rect x="0" y="0" width="280" height="128" rx="10" fill="#0A0A0A"/>
+    <rect x="0.5" y="0.5" width="279" height="127" rx="9.5" fill="none" stroke="#F5C518" stroke-opacity="0.2"/>
+    <rect x="16" y="0" width="60" height="2" fill="url(#gold)">
+      <animate attributeName="width" values="0;60" dur="0.9s" begin="0.15s" fill="freeze"/>
+    </rect>
+    <g text-anchor="middle">
+      <text class="num" x="140" y="70">18<animate attributeName="opacity" values="1;0" keyTimes="0;0.05" dur="7s" calcMode="discrete" repeatCount="indefinite"/></text>
+      <text class="num" x="140" y="70">54<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.05;0.1" dur="7s" calcMode="discrete" repeatCount="indefinite"/></text>
+      <text class="num" x="140" y="70">96<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1;0.15" dur="7s" calcMode="discrete" repeatCount="indefinite"/></text>
+      <text class="num" x="140" y="70">118<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.15;0.2" dur="7s" calcMode="discrete" repeatCount="indefinite"/></text>
+      <text class="num" x="140" y="70">125+<animate attributeName="opacity" values="0;1" keyTimes="0;0.2" dur="7s" calcMode="discrete" repeatCount="indefinite"/></text>
+      <text class="lbl" x="140" y="98">GAME STUDIOS</text>
+    </g>
+  </g>
+
+  <g transform="translate(600,0)">
+    <rect x="0" y="0" width="280" height="128" rx="10" fill="#0A0A0A"/>
+    <rect x="0.5" y="0.5" width="279" height="127" rx="9.5" fill="none" stroke="#F5C518" stroke-opacity="0.2"/>
+    <rect x="16" y="0" width="60" height="2" fill="url(#gold)">
+      <animate attributeName="width" values="0;60" dur="0.9s" begin="0.3s" fill="freeze"/>
+    </rect>
+    <g text-anchor="middle">
+      <text class="num" x="140" y="70">8</text>
+      <text class="lbl" x="140" y="98">SOURCE PLATFORMS</text>
+    </g>
+    <circle cx="238" cy="30" r="4" fill="#F5C518">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

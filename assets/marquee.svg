@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="44" viewBox="0 0 900 44" role="img" aria-label="Slots, live tables, crash, table games, jackpot, sportsbook, games API">
+  <defs>
+    <linearGradient id="edgeFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="12%" stop-color="#ffffff"/>
+      <stop offset="88%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <mask id="fade">
+      <rect width="900" height="44" fill="url(#edgeFade)"/>
+    </mask>
+  </defs>
+
+  <rect width="900" height="44" rx="8" fill="#0A0A0A"/>
+  <rect x="0.5" y="0.5" width="899" height="43" rx="7.5" fill="none" stroke="#F5C518" stroke-opacity="0.22"/>
+
+  <g mask="url(#fade)" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="600" fill="#F5C518" letter-spacing="1">
+    <g>
+      <text x="0" y="27" textLength="900" lengthAdjust="spacing">SLOTS &#183; LIVE TABLES &#183; CRASH &#183; TABLE GAMES &#183; JACKPOT &#183; SPORTSBOOK &#183; GAMES API &#183;</text>
+      <text x="900" y="27" textLength="900" lengthAdjust="spacing">SLOTS &#183; LIVE TABLES &#183; CRASH &#183; TABLE GAMES &#183; JACKPOT &#183; SPORTSBOOK &#183; GAMES API &#183;</text>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="22s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>
